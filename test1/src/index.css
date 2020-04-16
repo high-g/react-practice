@@ -27,4 +27,5 @@ code {
   margin-right: -1px;
   margin-top: -1px;
   width: 35px; height: 35px;
+  vertical-align: top;
 }
