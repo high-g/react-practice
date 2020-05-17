@@ -29,8 +29,11 @@ class Game extends Component {
     })
   }
 
-  jumpTo() {
-    
+  jumpTo(step) {
+    this.setState({
+      stepNumber: step,
+      xIsNext: step % 2 === 0
+    })
   }
 
   render() {
